@@ -1,0 +1,6 @@
+flask
+python-dotenv
+openai>=1.55.0
+nltk
+PyPDF2
+gunicorn
