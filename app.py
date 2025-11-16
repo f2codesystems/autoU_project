@@ -26,9 +26,10 @@ client = OpenAI()
 # ------------------------- INICIALIZAR FLASK -------------------------
 app = Flask(__name__)
 
-# ------------------------- GARANTIR NLTK -------------------------
-nltk.download("punkt")
-nltk.download("stopwords")
+# ------------------------- GARANTIR NLTK NO RENDER -------------------------
+nltk.data.path.append("/opt/render/nltk_data")  # caminho para o Render
+nltk.download("punkt", quiet=True)
+nltk.download("stopwords", quiet=True)
 
 # ------------------------- FUNÇÕES -------------------------
 
