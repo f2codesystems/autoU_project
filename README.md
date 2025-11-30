@@ -73,7 +73,7 @@ http://localhost:5000
 
 Link da Aplicação Deployada
 
-(Inserir link da aplicação online quando estiver disponível)
+https://autou-project.onrender.com
 
 Observações
 
